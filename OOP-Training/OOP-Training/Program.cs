@@ -10,11 +10,13 @@ namespace OOP_Training
             Console.WriteLine("Hello World!");
             Cube cube = new Cube
             {
-                Position = new Vector3(0, 0, 0),
-                Rotation = new Vector3(0, 0, 0)
+                
             };
-            cube.AddComponent<Timer>();
-            
+            cube.AddComponent<Timer>(new Timer());
+            var x = cube.GetComponent<Timer>();
+            x.CountForSeconds(10);
+
+
         }
     }
 }
