@@ -15,8 +15,14 @@ namespace OOP_Training
     public class Transform : Components
     {
         public Vector3 Position = Vector3.Zero;
-        public Quaternion Rotation = Quaternion.Identity;
+        public Vector3 Scale = Vector3.One;
+        public Vector3 Rotation = Vector3.Zero;
         public bool IsActive = true;
+        
+        
+        
+        
+        
     }
     
     
@@ -36,4 +42,6 @@ namespace OOP_Training
 
         }
     }
+    
+    
 }

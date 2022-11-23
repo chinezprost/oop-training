@@ -1,0 +1,16 @@
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\bin\Debug\net5.0\OOP-Training.exe
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\bin\Debug\net5.0\OOP-Training.deps.json
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\bin\Debug\net5.0\OOP-Training.runtimeconfig.json
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\bin\Debug\net5.0\OOP-Training.runtimeconfig.dev.json
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\bin\Debug\net5.0\OOP-Training.dll
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\bin\Debug\net5.0\ref\OOP-Training.dll
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\bin\Debug\net5.0\OOP-Training.pdb
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\OOP-Training.csproj.AssemblyReference.cache
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\OOP-Training.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\OOP-Training.AssemblyInfoInputs.cache
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\OOP-Training.AssemblyInfo.cs
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\OOP-Training.csproj.CoreCompileInputs.cache
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\OOP-Training.dll
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\ref\OOP-Training.dll
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\OOP-Training.pdb
+C:\C#\Training\Object Oriented Programming\OOP-Training\OOP-Training\obj\Debug\net5.0\OOP-Training.genruntimeconfig.cache

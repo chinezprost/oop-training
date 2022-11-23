@@ -8,13 +8,11 @@ namespace OOP_Training
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Cube cube = new Cube
-            {
-                
-            };
-            cube.AddComponent<Timer>(new Timer());
-            var x = cube.GetComponent<Timer>();
-            x.CountForSeconds(10);
+            Cube cube = new Cube();
+            
+            cube.AddComponent(new Timer());
+            cube.GetComponent<Timer>().CountForSeconds(10).RunSynchronously();
+            
 
 
         }

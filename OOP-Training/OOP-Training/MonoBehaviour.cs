@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Numerics;
+using OOP_Training;
 
 namespace OOP_Training
 {
@@ -11,7 +14,18 @@ namespace OOP_Training
         
         public void AddComponent<T>(T component) where T : Components
         {
-            components.Add(component);
+            try
+            {
+                if (this.components.Find(x => x == component) == null)
+                {
+                    components.Add(component);
+                    Console.WriteLine("Component added.");
+                }
+            }
+            catch (Exception _Ex)
+            {
+                Console.WriteLine($"Couldn't add component: {_Ex}");
+            }
         }
 
         public void RemoveComponent<T>(T component) where T : Components
@@ -33,6 +47,17 @@ namespace OOP_Training
         }
 
 
+        public bool TransformCollider(GameObject gameObject_1, GameObject gameObject_2)
+        {
+            var distanceBetweenObjects =
+                Vector3.Distance(gameObject_1.GetComponent<Transform>().Position, gameObject_2.GetComponent<Transform>().Position);
+            
+            
+        }
+
+        
+
+
 
 
 
@@ -41,5 +66,10 @@ namespace OOP_Training
 
     }
     
+    
+}
+
+public class GameObject : MonoBehaviour
+{
     
 }
